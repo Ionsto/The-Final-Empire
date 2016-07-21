@@ -29,7 +29,7 @@
     <File md5="AF1480AF1FD7FE0414C162913B48C92A" import="1">Art/CivSymbolsColorLegends64.dds</File>
     <File md5="3B9FCBA9AE2A7D84B1EC292C5D84712B" import="1">Art/CivSymbolsColorLegends80.dds</File>
     <File md5="9A9CB45BE00FB55C28E51891342C623D" import="1">Art/RashekDOM.dds</File>
-    <File md5="B1464A6CEC669271ACCEAF2223586674" import="1">Lua/Functions.lua</File>
+    <File md5="4C37FC77DE46D8DBF8F3584769F98B7B" import="1">Lua/Functions.lua</File>
     <File md5="8E056BD45D9B825745CD5DCAB876DEA0" import="0">XML/Civilizations/Civ_FE.xml</File>
     <File md5="0B1758BB4C1BF1E6BEAD9A54C0672818" import="0">XML/Civilizations/CIV5Traits.xml</File>
     <File md5="5F559110C94DA5BAA57CBA6E6B8B4AFC" import="0">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
