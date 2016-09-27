@@ -14,11 +14,17 @@ for i = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
 end
 --int hexX, int hexY, PlayerID player, int routeType
 function AddRoad(hexX, hexY, player, routeType)
+	local riverplot = (Map.GetPlot(hexX,hexY));
+	if (riverplot:IsNEOfRiver()) then 
 	GoldPlayers[player] += 1;
+	end
 end
 --int hexX, int hexY
 function DestroyRoad(hexX,hexY)
-	GoldPlayers[Map.GetPlot(hexX,hexY).GetPlayer()] -= 1;
+	local riverplot = (Map.GetPlot(hexX,hexY));
+	if (riverplot:IsNEOfRiver()) then 
+		GoldPlayers[Map.GetPlot(hexX,hexY).GetPlayer()] -= 1;
+	end
 end
 function UpdateGold(player)
 	Players[player].ChangeGold(GoldPlayers[player]);
